@@ -1,0 +1,56 @@
+<!DOCTTIPE>
+<html>
+
+  <head>
+    <title>掲示板_入力フォーム</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>掲示板に、思いを載せよう！！</h1>
+      <main>
+        ホロライブプロダクション所属　５期生　尾丸ポルカ　への思いを載せましょう！！<br>
+        ＊誹謗中傷は禁止です。
+      </main>
+    </header>
+    <!-- 入力フォームのの定義 -->
+    <form>
+      <h3>入力フォーム</h3>
+      <br>
+      <!-- 名前の入力 -->
+      <label>お名前（フルネーム）</label>
+      <input type = "text" placeholder = "お名前（フルネーム）をご入力ください">
+      <br>
+
+      <!-- 性別 -->
+      <label>男性</label><input type = "radio" name = "gender">
+      <label>女性</label><input type = "radio" name = "gender">
+      <label>その他</label><input type = "radio" name = "gender">
+      <br>
+
+      <!-- 年代の入力 -->
+      <label>年代</label>
+      <select>
+        <option>１０代未満</option>
+        <option>１０代</option>
+        <option>２０代</option>
+        <option>３０代</option>
+        <option>４０代</option>
+        <option>４０代以上</option>
+      </select>
+      
+      <!-- 意見や感想の記入 -->
+      <label>ご意見・感想</label>
+      <textarea></textarea>
+      <br>
+
+      <!-- 利用規約への同意の確認 -->
+      <label>利用規約に同意する</label>
+      <input type = "checkbox">
+
+      <!-- 送信ボタンの定義 -->
+      <input type = "submit" value="送信">
+
+    </form>
+  </body>
+</html>
